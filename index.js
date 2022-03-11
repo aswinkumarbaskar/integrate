@@ -12,6 +12,6 @@ app.get("/",(req,res)=>{
     res.status(200).json({Mesaage:"success",Data:"Welcome to my testing...!!"})
 })
 
-app.listen(8080,()=>{
+app.listen(3000,()=>{
     console.log("server Running");
 })
